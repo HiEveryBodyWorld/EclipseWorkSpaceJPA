@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="bookingJPA">
+		<class>bookingJPA.Appointment</class>
+		<class>bookingJPA.Doctor</class>
+		<class>bookingJPA.Patient</class>
+		<class>bookingJPA.Preset</class>
+		<class>bookingJPA.Schedules</class>
+		<class>bookingJPA.Site</class>
+		<class>bookingJPA.Template</class>
+		<class>bookingJPA.Tepdetail</class>
+		<class>bookingJPA.User</class>
+	</persistence-unit>
+</persistence>
